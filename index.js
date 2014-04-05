@@ -81,7 +81,7 @@ module.exports = function (credentials, debug) {
 
     console.debug('Postmaser Node.js Client Library'.blue, '\n', apiLib);
 
-    // check for API key
+    // Check for API key.
     if (!credentials.apiKey) throw new Error('Please supply an API key.');
 
     return apiLib;
