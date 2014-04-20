@@ -1,4 +1,3 @@
-var _           = require('underscore');
 var util        = require('util');
 var request     = require('request');
 var helpers     = require('./lib/helpers');
@@ -63,8 +62,6 @@ module.exports = function (credentials, debug) {
             return void 0;
         };
     }
-
-    console.debug('Debugging is enabled');
 
     var url  = PROD_URL;
     var requestor  = require('./lib/requestor')(request, credentials, stringify, safeParse);
