@@ -9,7 +9,6 @@ https://www.postmaster.io/
 
 
 <h2>Installation</h2>
-<h4>Coming soon.</h4>
 ```
 npm install postmaster-shipping
 ```
