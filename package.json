@@ -1,6 +1,6 @@
 {
   "name": "postmaster-shipping",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Developer friendly shipping",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MorbidZach/postmaster-nodejs.git"
+    "url": "https://github.com/postmaster/postmaster-nodejs.git"
   },
   "keywords": [
     "nodejs",
@@ -22,9 +22,9 @@
   ],
   "author": "Zach Harbort (http://www.zach-harbort.com)",
   "bugs": {
-    "url": "https://github.com/MorbidZach/postmaster-nodejs/issues"
+    "url": "https://github.com/postmaster/postmaster-api/issues"
   },
-  "homepage": "https://github.com/MorbidZach/postmaster-nodejs",
+  "homepage": "https://github.com/postmaster/postmaster-nodejs",
   "dependencies": {
     "colors": "~0.6.2",
     "async": "~0.2.10",
