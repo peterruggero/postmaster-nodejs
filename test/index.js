@@ -146,7 +146,6 @@ postmaster.v1.rate.list({
     logTestResponse(err, response, 'rate.list');
 });
 
-
 // POST https://api.postmaster.io/v1/packages
 postmaster.v1.box.create({
     width: 10,
@@ -155,6 +154,11 @@ postmaster.v1.box.create({
     name: 'My Fun Box'
 }, function(err, response) {
     logTestResponse(err, response, 'box.create');
+});
+
+// DELETE https://api.postmaster.io/v1/packages/1234/
+postmaster.v1.box.delete(5086950675447808, function(err, response) {
+    logTestResponse(err, response, 'box.delete');
 });
 
 // GET https://api.postmaster.io/v1/packages
