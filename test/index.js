@@ -157,7 +157,7 @@ postmaster.v1.box.create({
 });
 
 // DELETE https://api.postmaster.io/v1/packages/1234/
-postmaster.v1.box.delete(5086950675447808, function(err, response) {
+postmaster.v1.box.delete(1234, function(err, response) {
     logTestResponse(err, response, 'box.delete');
 });
 
