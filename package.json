@@ -1,6 +1,6 @@
 {
   "name": "postmaster-shipping",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Developer friendly shipping",
   "main": "index.js",
   "directories": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/postmaster/postmaster-nodejs",
   "dependencies": {
     "colors": "~0.6.2",
-    "async": "~0.2.10",
-    "request": "~2.33.0"
+    "async": "~0.9.0",
+    "request": "~2.40.0"
   }
 }
