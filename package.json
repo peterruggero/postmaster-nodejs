@@ -1,6 +1,6 @@
 {
   "name": "postmaster-shipping",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Developer friendly shipping",
   "main": "index.js",
   "directories": {
